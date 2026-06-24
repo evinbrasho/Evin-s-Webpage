@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { JSX } from 'react';
+import { JSX, useState } from 'react';
 
 
 export interface CardProps {
@@ -46,3 +46,17 @@ export default function Card({ image, title, description,techStackicons, linkToP
     );
 
 };
+
+
+function toggle() {
+    const [counter, setcounter] = useState(0);
+
+    const onClick = () =>  { 
+         setcounter(counter => counter +1);
+    }
+
+    return(
+        <div>
+            <button onClick={onClick}>{counter}</button>
+        </div>
+    )
