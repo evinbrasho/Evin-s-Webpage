@@ -47,8 +47,8 @@ export function NavBar() {
                         <Linkedin className='hover:hover:text-[#38b6ff]' size={35} />
                     </Link>
                     <Link
-                        as={'https://github.com/EvinRasho'}
-                        href='https://github.com/EvinRasho'
+                        as={'https://github.com/evinbrasho'}
+                        href='https://github.com/evinbrasho'
                         aria-label='GitHub '
                         target='_blank'
                         rel='noopener noreferrer'>
